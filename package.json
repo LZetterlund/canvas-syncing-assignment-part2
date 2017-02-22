@@ -1,0 +1,31 @@
+{
+  "name": "canvas-syncing-assignment-part2",
+  "version": "1.0.0",
+  "description": "\u001b[A\u001b[BSyncing data homework part 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LZetterlund/canvas-syncing-assignment-part2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LZetterlund/canvas-syncing-assignment-part2/issues"
+  },
+  "homepage": "https://github.com/LZetterlund/canvas-syncing-assignment-part2#readme",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
